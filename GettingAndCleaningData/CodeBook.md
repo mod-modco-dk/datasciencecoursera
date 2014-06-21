@@ -26,7 +26,8 @@ acceleration and gravity. The gravitational force is assumed to have only low
 frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From 
 each window, a vector of features was obtained by calculating variables from the time 
 and frequency domain. 
-This is a quote from the link above.
+
+*This is a quote from the link above.*
 
 The data is obtained from here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -38,8 +39,8 @@ The two files have the same column layout, described below.
 - "activity_aggregates.csv" aggravated data over subject and activity.
 
 The first two columns are:
-subject_id: integer value identifying the subject that was measured (id in (1:30))
-activity_label: text label describe the activity measured label in (WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING)  
+- subject_id: integer value identifying the subject that was measured (id in (1:30))
+- activity_label: text label describe the activity measured label in (WALKING,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,SITTING,STANDING,LAYING)  
 
 The other features selected for these datasets come from the accelerometer and gyroscope 
 3-axial raw signals tAcc_XYZ and tGyro_XYZ. These time domain signals (prefix 't' to 
@@ -61,43 +62,43 @@ fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).
 These signals were used to estimate variables of the feature vector for each pattern:  
 '_XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc_XYZ
-tGravityAcc_XYZ
-tBodyAccJerk_XYZ
-tBodyGyro_XYZ
-tBodyGyroJerk_XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc_XYZ
-fBodyAccJerk_XYZ
-fBodyGyro_XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAcc_XYZ
+- tGravityAcc_XYZ
+- tBodyAccJerk_XYZ
+- tBodyGyro_XYZ
+- tBodyGyroJerk_XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc_XYZ
+- fBodyAccJerk_XYZ
+- fBodyGyro_XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean: Mean value
-std: Standard deviation
-angle: Angle between two vectors.
+- mean: Mean value
+- std: Standard deviation
+- angle: Angle between two vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These 
 are used on the angle variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+- gravityMean
+- tBodyAccMean
+- tBodyAccJerkMean
+- tBodyGyroMean
+- tBodyGyroJerkMean
 
 
-The complete list of variables of each feature vector is available in the header of the csv files
+The complete list of variables of each feature vector is available in the header of the csv files.
 
-The above is taken from "features_info.txt" in the downloaded zip file.
+*The above is taken from "features_info.txt" in the downloaded zip file.*
 
 
 
