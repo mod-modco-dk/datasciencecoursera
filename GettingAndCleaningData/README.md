@@ -20,6 +20,7 @@ The basic steps are.
 * 7. Summarize the data on subject and subject activity.
 * 8. Save the data.
 
+
 The script can be started in R be executing with the command
 source("run_analysis.R")
 

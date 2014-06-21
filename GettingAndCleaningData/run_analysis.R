@@ -40,7 +40,7 @@
 # setwd("<insert path here>\\Getting and Cleaning Data\\CourseProject")
 
 
-# step 1: read activity labels  activity_labels.txt
+# step 1: read activity labels  activity_labels.txt 
 df.activity_labels <- read.table(file="UCI HAR Dataset/activity_labels.txt"
                               ,skip=0
                               ,strip.white=TRUE

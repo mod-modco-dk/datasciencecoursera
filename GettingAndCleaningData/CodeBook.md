@@ -9,6 +9,8 @@ The data the produced dataset are derived from are described on this web page:
 Human Activity Recognition Using Smartphones Data Set 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+*This is a quote from the link above.*
+
 Data Set Information:
 The experiments have been carried out with a group of 30 volunteers within an age 
 bracket of 19-48 years. Each person performed six activities (WALKING, 
@@ -27,7 +29,7 @@ frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. 
 each window, a vector of features was obtained by calculating variables from the time 
 and frequency domain. 
 
-*This is a quote from the link above.*
+
 
 The data is obtained from here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
