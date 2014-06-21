@@ -5,7 +5,7 @@ Description of the course can be found here:
 http://www.coursera.org/course/getdata
 
 # Study Design
-The data the produced dataset are derived from are described on this web page: 
+The data, the produced dataset are derived from are described on this web page: 
 Human Activity Recognition Using Smartphones Data Set 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
@@ -98,7 +98,7 @@ are used on the angle variable:
 - tBodyGyroJerkMean
 
 
-The complete list of variables of each feature vector is available in the header of the csv files.
+The complete list of variables of each feature vector is available in the header of the txt files.
 
 *The above is taken from "features_info.txt" in the downloaded zip file.*
 
