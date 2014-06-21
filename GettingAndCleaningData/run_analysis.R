@@ -176,7 +176,7 @@ rm("df.test")
 rm("df.train")
 
 ## save the merged data frame
-write.table(df.merged, "activity_obeservations.csv", sep=",", row.names = FALSE)
+write.table(df.merged, "activity_obeservations.txt", sep=",", row.names = FALSE)
 
 # step 5: 
 ## aggregate example from ?aggregate
@@ -195,7 +195,7 @@ colnames(df.aggdata)[1:2] <- c("subject_id","activity_label")
 
 
 ## save the merged data frame
-write.table(df.aggdata, "activity_aggregates.csv", sep=",", row.names = FALSE)
+write.table(df.aggdata, "activity_aggregates.txt", sep=",", row.names = FALSE)
 
 
 

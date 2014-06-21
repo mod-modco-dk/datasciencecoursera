@@ -35,8 +35,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 # Code book
 This data set consists of two files
 The two files have the same column layout, described below.
-- "activity_obeservations.csv" are data for all observations
-- "activity_aggregates.csv" aggravated data over subject and activity.
+- "activity_obeservations.txt" are data for all observations
+- "activity_aggregates.txt" aggregated data over subject and activity.
 
 The first two columns are:
 - subject_id: integer value identifying the subject that was measured (id in (1:30))
